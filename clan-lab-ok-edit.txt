@@ -1184,25 +1184,25 @@ PONTOTOC     ALLEN                 1208 2ND N ST                       6/9/2004
 PONTOTOC     ALLEN                 RURAL ROUTE 1 2432                  2/4/2011
 PONTOTOC     STONEWALL            2 RURAL ROUTE 13                     4/22/2001
 PONTOTOC     STONEWALL             7 DEVILS & ADAMSON RD              12/12/2004
-POTTAWATOMIE EARLSBORO             1100 MISSISSIPPI S                  2/9/2000
-POTTAWATOMIE MCLOUD                1301 BERNARD ST                     2/4/2000
-POTTAWATOMIE MCLOUD                1300 SANDY CREEK                  9/17/2001
-POTTAWATOMIE MCLOUD                3300 MISSISSIPPI N ST             10/25/2001
-POTTAWATOMIE SHAWNEE              315 WEST 2ND                       1/26/2001
-POTTAWATOMIE SHAWNEE               29880 PARKWOOD RD                 5/31/2001
-POTTAWATOMIE SHAWNEE               13080 COUNTY LINE RD              5/31/2001
-POTTAWATOMIE SHAWNEE               36 QUAILWOOD RUN                  12/27/2001
-POTTAWATOMIE SHAWNEE               4411 SMOKING TREE                 4/13/2002
-POTTAWATOMIE SHAWNEE               27 SEQUAYAH ST                    4/25/2002
-POTTAWATOMIE SHAWNEE               214 OAKLAND W ST                  3/16/2003
-POTTAWATOMIE SHAWNEE               23 CONCORD                         6/5/2003
-POTTAWATOMIE SHAWNEE               121 HIGH N                         3/9/2006
-POTTAWATOMIE TECUMSEH              318 MINNESOTA S                   2/25/2001
-POTTAWATOMIE TECUMSEH              632 CHAPMAN N ST                  3/22/2001
-POTTAWATOMIE TECUMSEH              228 CENTER S                      3/22/2001
-POTTAWATOMIE TECUMSEH              308 LOUISA S ST                   4/16/2001
-POTTAWATOMIE TECUMSEH              220.5 LINCOLN S ST                10/30/2002
-POTTAWATOMIE TECUMSEH              13004 VALLEY VIEW RD              10/30/2002
+POTTAWATOMIE  EARLSBORO             1100 MISSISSIPPI S                  2/9/2000
+POTTAWATOMIE  MCLOUD                1301 BERNARD ST                     2/4/2000
+POTTAWATOMIE  MCLOUD                1300 SANDY CREEK                  9/17/2001
+POTTAWATOMIE  MCLOUD                3300 MISSISSIPPI N ST             10/25/2001
+POTTAWATOMIE  SHAWNEE              315 WEST 2ND                       1/26/2001
+POTTAWATOMIE  SHAWNEE               29880 PARKWOOD RD                 5/31/2001
+POTTAWATOMIE  SHAWNEE               13080 COUNTY LINE RD              5/31/2001
+POTTAWATOMIE  SHAWNEE               36 QUAILWOOD RUN                  12/27/2001
+POTTAWATOMIE  SHAWNEE               4411 SMOKING TREE                 4/13/2002
+POTTAWATOMIE  SHAWNEE               27 SEQUAYAH ST                    4/25/2002
+POTTAWATOMIE  SHAWNEE               214 OAKLAND W ST                  3/16/2003
+POTTAWATOMIE  SHAWNEE               23 CONCORD                         6/5/2003
+POTTAWATOMIE  SHAWNEE               121 HIGH N                         3/9/2006
+POTTAWATOMIE  TECUMSEH              318 MINNESOTA S                   2/25/2001
+POTTAWATOMIE  TECUMSEH              632 CHAPMAN N ST                  3/22/2001
+POTTAWATOMIE  TECUMSEH              228 CENTER S                      3/22/2001
+POTTAWATOMIE  TECUMSEH              308 LOUISA S ST                   4/16/2001
+POTTAWATOMIE  TECUMSEH              220.5 LINCOLN S ST                10/30/2002
+POTTAWATOMIE  TECUMSEH              13004 VALLEY VIEW RD              10/30/2002
 PUSHMATAHA   ANTLERS               2 SENECA                          3/14/2005
 PUSHMATAHA   CLAYTON               221 9TH E ST A                    8/24/2000
 PUSHMATAHA   DAISY                15409 NORTH GADDY ROAD             11/15/2001
