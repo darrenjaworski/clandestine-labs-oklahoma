@@ -1,7 +1,9 @@
+import os
 import csv
 import re
+import geocoder
 
-fieldnames = ['county', 'city', 'address', 'date']
+fieldnames = ['county', 'city', 'address', 'date', 'lat', 'long']
 
 with open("clan-lab-ok-edit.txt", "r") as f:
 
@@ -18,7 +20,6 @@ with open("clan-lab-ok-edit.txt", "r") as f:
                 json['date'] = date.group()
             else:
                 json['date'] = ''
-
             if county:
                 json['county'] = line[:county.end()].strip()
             else:
@@ -35,6 +36,19 @@ with open("clan-lab-ok-edit.txt", "r") as f:
 
             if address:
                 json['address'] = line[city.end() + county.end():city.end() + county.end() + address.end()].strip()
+                search = json['address'] + ' ,' + json['city'] + ' ,Oklahoma, United States'
+
+                g = geocoder.mapbox(search, access_token=os.environ['MAPBOX_ACCESS_TOKEN'])
+
+                try:
+                    json['lat'] = g.json['lat']
+                    json['long'] = g.json['lng']
+                    print 'geocoded'
+                except KeyError:
+                    json['lat'] = ''
+                    json['long'] = ''
+                    print 'exception'
+
             else:
                 json['address'] = ''
 
