@@ -36,14 +36,15 @@ with open("clan-lab-ok-edit.txt", "r") as f:
 
             if address:
                 json['address'] = line[city.end() + county.end():city.end() + county.end() + address.end()].strip()
-                search = json['address'] + ' ,' + json['city'] + ' ,Oklahoma, United States'
+                search = json['address'] + ' ,' + json['city'] + ', Oklahoma United States'
 
                 g = geocoder.mapbox(search, access_token=os.environ['MAPBOX_ACCESS_TOKEN'])
 
                 try:
-                    json['lat'] = g.json['lat']
-                    json['long'] = g.json['lng']
-                    print 'geocoded'
+                    if g.json['state'] == 'Oklahoma':
+                        json['lat'] = g.json['lat']
+                        json['long'] = g.json['lng']
+                        # print 'geocoded'
                 except KeyError:
                     json['lat'] = ''
                     json['long'] = ''
