@@ -1,8 +1,6 @@
 setwd("~/Sites/R/clandestine-lab")
 
-library(tidyr)
-library(dplyr)
-
+# will need rewrite this. Cleaning and csv produced in python.
 filename <- 'clan-lab-ok.txt'
 filenameEdit <- 'clan-lab-ok-edit.txt'
 headers <- c('COUNTY', 'CITY', 'ADDRESS', 'DATE')
@@ -21,6 +19,7 @@ fwf <- read.fwf(file = filename,
                 col.names = headers,
                 fill = FALSE)
 
+# read csv, summarize
 library(plyr)
 
 data = read.csv('clan-lab-ok.csv')
@@ -31,13 +30,18 @@ cityCount <- ddply(data, c('city'), summarise,
 countyCount <- ddply(data, c('county'), summarise,
                      number = length(county))
 
-
+# map the geocoded points on the map
 library(ggmap)
 
-myLocation <- c(lon = -97.5164, lat = 35.4676)
+#coordinates
+OKC <- c(lon = -97.5164, lat = 35.4676)
+Tulsa <- c(lon = -95.9928, lat = 36.1540)
+zoomedOutCenter <- c(lon = -98.5164, lat = 35.4676)
+
+myLocation <- zoomedOutCenter
 
 oklahomaMap <- get_map(location=myLocation,
-                 source='google', maptype='terrain', crop=FALSE, zoom = 7)
+                 source='stamen', maptype='toner', crop=FALSE, zoom = 7)
 
 ggmap(oklahomaMap) +
   geom_point(aes(x = data$long , y = data$lat), data = data,
